@@ -144,7 +144,7 @@ dependencies = [
 
 [[package]]
 name = "static-keys"
-version = "0.8.1"
+version = "0.8.2"
 dependencies = [
  "clear-cache",
  "libc",
