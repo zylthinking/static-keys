@@ -21,10 +21,10 @@ libc = { version = "0.2", default-features = false }
 clear-cache = "0.1"
 
 [target.'cfg(target_os = "macos")'.dependencies]
-mach2 = "0.4"
+mach2 = "0.5"
 
 [target.'cfg(target_os = "windows")'.dependencies]
-windows = { version = "0.61", features = [
+windows = { version = "0.62", features = [
   "Win32_System_SystemInformation",
   "Win32_System_Memory",
   "Win32_System_Threading",
